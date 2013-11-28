@@ -127,6 +127,7 @@
 		BC3A5281183E567000716CD2 /* 001_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3A5258183E567000716CD2 /* 001_1.png */; };
 		BC3A5283183E599D00716CD2 /* 003_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3A5282183E599D00716CD2 /* 003_3.png */; };
 		BC84B5C617F2D3C0009D6C30 /* VideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84B5C517F2D3C0009D6C30 /* VideoInfo.m */; };
+		BC87AF241847B38D007216ED /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC87AF231847B38D007216ED /* VideoPlayer.m */; };
 		BC9BA1FA184046FE004DF72A /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84B5C117F07E6E009D6C30 /* UserGuideViewController.m */; };
 		BCA0041917F4504E00B727FC /* ChannelListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA0041817F4504E00B727FC /* ChannelListView.m */; };
 		BCA0041C17F801B700B727FC /* MineSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA0041B17F801B700B727FC /* MineSettingItem.m */; };
@@ -311,6 +312,8 @@
 		BC84B5C117F07E6E009D6C30 /* UserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
 		BC84B5C417F2D3C0009D6C30 /* VideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfo.h; sourceTree = "<group>"; };
 		BC84B5C517F2D3C0009D6C30 /* VideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfo.m; sourceTree = "<group>"; };
+		BC87AF221847B38D007216ED /* VideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		BC87AF231847B38D007216ED /* VideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
 		BCA0041717F4504E00B727FC /* ChannelListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelListView.h; sourceTree = "<group>"; };
 		BCA0041817F4504E00B727FC /* ChannelListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelListView.m; sourceTree = "<group>"; };
 		BCA0041A17F801B700B727FC /* MineSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSettingItem.h; sourceTree = "<group>"; };
@@ -644,6 +647,8 @@
 		BCA0041D17F9816E00B727FC /* exin_videoplayer */ = {
 			isa = PBXGroup;
 			children = (
+				BC87AF221847B38D007216ED /* VideoPlayer.h */,
+				BC87AF231847B38D007216ED /* VideoPlayer.m */,
 			);
 			name = exin_videoplayer;
 			sourceTree = "<group>";
@@ -999,6 +1004,7 @@
 				BCA11C4B1842E66500878784 /* UIProgressView+AFNetworking.m in Sources */,
 				BCA11C4C1842E66500878784 /* UIWebView+AFNetworking.m in Sources */,
 				BCA11C97184377D700878784 /* GamePlayerAPIClient.m in Sources */,
+				BC87AF241847B38D007216ED /* VideoPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
