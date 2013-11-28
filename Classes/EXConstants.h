@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+ 
 //全局变量，定义server地址
 NSString* SERVER;
 
