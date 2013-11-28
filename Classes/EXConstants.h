@@ -3,8 +3,6 @@
 //  GamePlayer
 //
 //  Created by talent_xia on 13-11-23.
-//
-//
 
 #import <Foundation/Foundation.h>
 

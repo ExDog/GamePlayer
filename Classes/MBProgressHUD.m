@@ -82,7 +82,7 @@
     }
 	
     mode = newMode;
-	
+
 	if ([NSThread isMainThread]) {
 		[self updateIndicators];
 		[self setNeedsLayout];
