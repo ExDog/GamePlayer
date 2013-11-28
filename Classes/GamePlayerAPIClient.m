@@ -2,7 +2,7 @@
 
 
 @implementation GamePlayerAPIClient
-
+   
 + (instancetype)sharedClient {
     static GamePlayerAPIClient *_sharedClient = nil;
     static dispatch_once_t onceToken;

@@ -154,7 +154,6 @@
 		BCA11C2D1842008400878784 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA11C2C1842008300878784 /* Security.framework */; };
 		BCA11C2F1842009200878784 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA11C2E1842009200878784 /* SystemConfiguration.framework */; };
 		BCA11C31184200A200878784 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA11C30184200A200878784 /* MobileCoreServices.framework */; };
-		BCA11C351842056600878784 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA11C341842056600878784 /* MBProgressHUD.m */; };
 		BCA11C461842E66500878784 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA11C381842E66500878784 /* AFNetworkActivityIndicatorManager.m */; };
 		BCA11C471842E66500878784 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA11C3A1842E66500878784 /* UIActivityIndicatorView+AFNetworking.m */; };
 		BCA11C481842E66500878784 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA11C3C1842E66500878784 /* UIAlertView+AFNetworking.m */; };
@@ -343,8 +342,6 @@
 		BCA11C2C1842008300878784 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BCA11C2E1842009200878784 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BCA11C30184200A200878784 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		BCA11C331842056600878784 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		BCA11C341842056600878784 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		BCA11C371842E66500878784 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		BCA11C381842E66500878784 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
 		BCA11C391842E66500878784 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -654,8 +651,6 @@
 		BCA11BC718409ED400878784 /* exin_utils */ = {
 			isa = PBXGroup;
 			children = (
-				BCA11C331842056600878784 /* MBProgressHUD.h */,
-				BCA11C341842056600878784 /* MBProgressHUD.m */,
 				BCA11BC818409F5900878784 /* EX_Debug.h */,
 				BCA11BC91840F8AD00878784 /* EXConstants.h */,
 			);
@@ -996,7 +991,6 @@
 				BCA11C1B1841FABA00878784 /* AFURLRequestSerialization.m in Sources */,
 				BCA11C1C1841FABA00878784 /* AFURLResponseSerialization.m in Sources */,
 				BCA11C1D1841FABA00878784 /* AFURLSessionManager.m in Sources */,
-				BCA11C351842056600878784 /* MBProgressHUD.m in Sources */,
 				BCA11C461842E66500878784 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				BCA11C471842E66500878784 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				BCA11C481842E66500878784 /* UIAlertView+AFNetworking.m in Sources */,
